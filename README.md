@@ -1,4 +1,4 @@
-# Julia For Data Science
+# Julia for Data Science
 
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://joshday.github.io/JuliaForDataScience.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://joshday.github.io/JuliaForDataScience.jl/dev)

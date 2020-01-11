@@ -1,1 +1,1 @@
-# Julia For Data Science
+# Julia for Data Science
