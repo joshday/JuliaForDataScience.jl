@@ -4,7 +4,7 @@ makedocs(;
     modules=[JuliaForDataScience],
     format=Documenter.HTML(),
     pages=[
-        "Home"                      => "00.home.md",
+        "Home"                      => "00-home.md",
         "01 - Introduction"         => "01-intro.md",
         "02 - Data Visualization"   => "02-dataviz.md"
     ],
