@@ -15,5 +15,5 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/joshday/JuliaForDataScience.jl",
-    devurl = ""
+    devurl = "/"
 )
