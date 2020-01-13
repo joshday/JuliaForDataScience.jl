@@ -18,7 +18,7 @@ Make sure you check out the [platform specific instructions](https://julialang.o
 Julia comes with the **Pkg** package manager to help you install and keep track of dependencies for different projects.
 
 - First, load **Pkg**
-- 
+  
 ```@repl 1
 using Pkg
 ```
@@ -31,8 +31,10 @@ using Pkg
     - `;` shell mode (run normal commands in your terminal)
     - `]` **Pkg** mode (add/remove/update/etc. your packages)
 
+Here we are using `Pkg.add(<package>)` but we could also use `]` to enter **Pkg** mode and then write `add <package>`.
+
 ```@repl 1
-Pkg.add("UnicodePlots")  # Alternatively, `] add UnicodePlots`
+Pkg.add("UnicodePlots")
 ```
 - Now load our installed package and try it out
 
