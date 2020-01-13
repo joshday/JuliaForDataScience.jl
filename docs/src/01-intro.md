@@ -17,11 +17,26 @@ Make sure you check out the [platform specific instructions](https://julialang.o
 
 Julia comes with the **Pkg** package manager to help you install and keep track of dependencies for different projects.
 
+- First, load **Pkg**
+- 
 ```@repl 1
 using Pkg
+```
 
-Pkg.add("UnicodePlots")
+- Next, let's add a package ([**UnicodePlots**](https://github.com/Evizero/UnicodePlots.jl)).
 
+!!! note "REPL Modes"
+    Julia has several REPL (read-eval-print loop) modes, such as:
+    - `?` help mode (search for documentation)
+    - `;` shell mode (run normal commands in your terminal)
+    - `]` **Pkg** mode (add/remove/update/etc. your packages)
+
+```@repl 1
+Pkg.add("UnicodePlots")  # Alternatively, `] add UnicodePlots`
+```
+- Now load our installed package and try it out
+
+```@repl 1
 using UnicodePlots
 
 lineplot(rand(10), title="My First Plot!")
