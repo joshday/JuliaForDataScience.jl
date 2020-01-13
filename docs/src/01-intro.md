@@ -41,5 +41,5 @@ Pkg.add("UnicodePlots")
 ```@repl 1
 using UnicodePlots
 
-lineplot(rand(10), title="My First Plot!")
+histogram(randn(1000), title="My First Plot!")
 ```
