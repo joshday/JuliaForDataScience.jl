@@ -15,3 +15,7 @@ code {
 #documenter-page {
     margin: 70px;
 }
+
+pre, code, kbd {
+    font-family: Roboto Mono, system fallbacks, monospace;;
+}
