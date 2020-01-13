@@ -3,6 +3,9 @@ uuid = "ef08b6a7-da18-4058-82ae-89e8e5fcf195"
 authors = ["joshday <emailjoshday@gmail.com>"]
 version = "0.1.0"
 
+[deps]
+StatsOK = "74b3dc45-5753-4c7b-b204-a3b5c86a2863"
+
 [compat]
 julia = "1"
 
