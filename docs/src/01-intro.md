@@ -15,7 +15,7 @@ Make sure you check out the [platform specific instructions](https://julialang.o
 
 ## 1.2 Installing Packages
 
-Julia comes with the **Pkg** package manager to help you install and keep track of dependencies for different projects.
+Julia comes with the **Pkg** package manager to help you install and keep track of dependencies for different projects.  A thorough overview of how to use **Pkg** is available at [https://docs.julialang.org/en/v1/stdlib/Pkg/](https://docs.julialang.org/en/v1/stdlib/Pkg/)
 
 - First, load **Pkg**
   
