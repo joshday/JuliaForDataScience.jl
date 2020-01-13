@@ -9,13 +9,10 @@ img {
 }
 
 code {
+    font-family: system fallbacks, monospace !important;
     color: #444 !important;
 }
 
 #documenter-page {
     margin: 80px;
-}
-
-pre, code, kbd {
-    font-family: system fallbacks, monospace !important;
 }
