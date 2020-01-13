@@ -16,15 +16,10 @@ Julia comes with the **Pkg** package manager to help you install and keep track 
 
 ```@repl 1
 using Pkg
-```
 
-```@repl 1
-] add UnicodePlots
-```
+Pkg.add("UnicodePlots")
 
-```@repl 1
 using UnicodePlots
 
 lineplot(rand(10), title="My First Plot!")
 ```
-
