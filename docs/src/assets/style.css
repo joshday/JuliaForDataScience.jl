@@ -1,5 +1,5 @@
 body, html {
-    background-color: #F7F7F7;
+    background-color: #FCFCFC;
 }
 
 img {
@@ -10,4 +10,8 @@ img {
 
 code {
     color: #444 !important;
+}
+
+#documenter-page {
+    margin: 50px;
 }
