@@ -1,6 +1,6 @@
 # 2. Data Visualization
 
-## 2.1 Plots.jl
+## Plots.jl
 
 **Plots** is an API and toolset for creating plots through other plotting packages, such as:
 
