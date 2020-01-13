@@ -1,0 +1,13 @@
+body, html {
+    background-color: #F7F7F7;
+}
+
+img {
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+code {
+    color: #444 !important;
+}
