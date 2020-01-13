@@ -47,3 +47,12 @@ histogram(randn(1000), title="My First Plot!")
 ## 1.3 Discovering Packages
 
 [https://pkg.julialang.org/docs/](https://pkg.julialang.org/docs/) is a fantastic resource for finding a package with functionality you are looking for.  "Julia for Data Science" covers many packages, but cannot exhaustively go over everything you may need as a data scientist.
+
+## 1.4 Getting Help
+
+If you get stuck on something, my recommendations for steps to get help are:
+
+1. Google it
+2. Ask on [http://julialang.slack.com](http://julialang.slack.com) (try the `#helpdesk` channel)
+3. Ask on [https://discourse.julialang.org](https://discourse.julialang.org) (try the `first-steps` tag)
+    - The general advice given at [https://discourse.julialang.org/t/psa-make-it-easier-to-help-you/14757](https://discourse.julialang.org/t/psa-make-it-easier-to-help-you/14757) is useful.
