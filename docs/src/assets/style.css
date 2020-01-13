@@ -17,5 +17,5 @@ code {
 }
 
 pre, code, kbd {
-    font-family: "system fallbacks", "monospace";
+    font-family: system fallbacks, monospace;
 }
