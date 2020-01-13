@@ -43,3 +43,7 @@ using UnicodePlots
 
 histogram(randn(1000), title="My First Plot!")
 ```
+
+## 1.3 Discovering Packages
+
+[https://pkg.julialang.org/docs/](https://pkg.julialang.org/docs/) is a fantastic resource for finding a package with functionality you are looking for.  "Julia for Data Science" covers many packages, but cannot exhaustively go over everything you may need as a data scientist.
