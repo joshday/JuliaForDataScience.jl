@@ -1,4 +1,4 @@
-```@setup
+```@setup 1
 ]add Plots UnicodePlots
 ```
 
