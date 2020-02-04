@@ -17,13 +17,13 @@ Make sure you check out the [platform specific instructions](https://julialang.o
 
 Julia comes with the **Pkg** package manager to help you install and keep track of dependencies for different projects.  A thorough overview of how to use **Pkg** is available at [https://docs.julialang.org/en/v1/stdlib/Pkg/](https://docs.julialang.org/en/v1/stdlib/Pkg/)
 
-- First, load **Pkg**
+### First, load **Pkg**
   
 ```@repl 1
 using Pkg
 ```
 
-- Next, let's add a package ([**UnicodePlots**](https://github.com/Evizero/UnicodePlots.jl)).
+### Next, let's add a package ([**UnicodePlots**](https://github.com/Evizero/UnicodePlots.jl)).
 
 !!! note "REPL Modes"
     Julia has several REPL (read-eval-print loop) modes, such as:
@@ -36,7 +36,8 @@ Here we are using `Pkg.add(<package>)` but we could also use `]` to enter **Pkg*
 ```@repl 1
 Pkg.add("UnicodePlots")
 ```
-- Now load our installed package and try it out
+
+### Now load our installed package and try it out
 
 ```@repl 1
 using UnicodePlots

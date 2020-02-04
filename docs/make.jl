@@ -4,10 +4,11 @@ makedocs(;
     modules=[JuliaForDataScience],
     format=Documenter.HTML(assets = ["assets/style.css"]),
     pages=[
-        "Home"                  => "index.md",
+        "0 Welcome"               => "index.md",
         "1 Introduction"        => "01-intro.md",
         "2 Data Visualization"  => "02-dataviz.md",
-        "3 Tabular Data"        => "03-tabulardata.md"
+        "3 Loading/Saving Data" => "03-loadingsaving.md",
+        "4 Tabular Data"        => "04-tabulardata.md"
     ],
     repo="https://github.com/joshday/JuliaForDataScience.jl/blob/{commit}{path}#L{line}",
     sitename="Julia for Data Science",
