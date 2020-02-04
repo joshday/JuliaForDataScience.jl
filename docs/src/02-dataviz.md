@@ -4,11 +4,13 @@
 
 # 2. Data Visualization
 
+Julia does not come packaged with a graphics/plotting library.  Instead, there is a variety of plotting packages to choose from.  We highly recommend beginning your plotting experience in Julia with **Plots**.
+
 ## [Plots](https://github.com/JuliaPlots/Plots.jl)
 
 **Plots** is an API and toolset for creating plots through other plotting packages, such as:
 
-- [**GR**](https://github.com/jheinen/GR.jl)
+- [**GR**](https://github.com/jheinen/GR.jl) (default backend)
 - [**PyPlot**](https://github.com/JuliaPy/PyPlot.jl)
 - [**PlotlyJS**](https://github.com/sglyon/PlotlyJS.jl)
 - [and more](http://docs.juliaplots.org/latest/backends/)
