@@ -2,7 +2,7 @@ using Documenter, JuliaForDataScience
 
 makedocs(;
     modules=[JuliaForDataScience],
-    format=Documenter.HTML(assets = ["assets/style.css"]),
+    format=Documenter.HTML(assets = ["assets/style.css"], analytics="UA-72795550-4"),
     pages=[
         "0 Welcome"               => "index.md",
         "1 Introduction"        => "01-intro.md",
