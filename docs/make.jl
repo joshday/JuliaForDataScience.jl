@@ -5,7 +5,7 @@ makedocs(;
     format=Documenter.HTML(
         assets = [
             "assets/style.css",
-            asset("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap", class=:css)
+            # asset("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap", class=:css)
         ], 
         analytics="UA-72795550-4"
         ),
