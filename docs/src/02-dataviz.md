@@ -26,7 +26,7 @@ Julia does not come packaged with a graphics/plotting library.  Instead, there i
 using Plots
 
 plot(rand(10, 2), color=[:blue :red])
-png("plot1.png"); nothing  # hide
+savefig("plot1.png"); nothing  # hide
 ```
 ![](plot1.png)
 
