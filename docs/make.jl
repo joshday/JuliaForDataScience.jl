@@ -2,9 +2,15 @@ using Documenter, JuliaForDataScience
 
 makedocs(;
     modules=[JuliaForDataScience],
-    format=Documenter.HTML(assets = ["assets/style.css"], analytics="UA-72795550-4"),
+    format=Documenter.HTML(
+        assets = [
+            "assets/style.css",
+            asset("https://fonts.googleapis.com/css?family=Varela+Round&display=swap", class=:css)
+        ], 
+        analytics="UA-72795550-4"
+        ),
     pages=[
-        "0 Welcome"               => "index.md",
+        "Welcome"               => "index.md",
         "1 Introduction"        => "01-intro.md",
         "2 Data Visualization"  => "02-dataviz.md",
         "3 Loading/Saving Data" => "03-loadingsaving.md",
