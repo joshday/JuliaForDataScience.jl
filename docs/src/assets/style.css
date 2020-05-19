@@ -1,5 +1,5 @@
 body, html {
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif !important;
     background-color: #FCFCFC;
 }
 
