@@ -17,7 +17,7 @@ Julia does not come packaged with a graphics/plotting library.  Instead, there i
 
 !!! note
     **GR** is typically the best-supported backend.  It is great for publication-quality plots.  For
-    displaying on the web, we recommend using `plotly()` or `plotlyjs()`.
+    interactivity, try using `plotly()` or `plotlyjs()`.
 
 !!! note
     Each backend has an associated function for switching to it , e.g. `gr()` for **GR**, `plotlyjs()` for **PlotlyJS**.

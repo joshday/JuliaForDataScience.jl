@@ -1,6 +1,6 @@
 # Julia for Data Science
 
-*Josh Day*
+*Dr. Josh Day*
 
 ## Welcome
 
@@ -20,4 +20,4 @@ Welcome to the website for "Julia for Data Science".  With this book, you'll lea
 
 "Julia for Data Science" adopts a number of conventions to make it easier to find the content you are looking for:
 
-- **BoldText**: a Julia package name.
+- **`BoldText`**: a Julia package name.
