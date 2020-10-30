@@ -10,39 +10,43 @@ ga('send', 'pageview', {'page': location.pathname + location.search + location.h
   Updating registry at `~/.julia/registries/General`
   Updating git-repo `https://github.com/JuliaRegistries/General.git`
 [?25l[2K[?25h Resolving package versions...
- Installed Missings ─────────── v0.4.3
- Installed DataStructures ───── v0.17.19
- Installed DataAPI ──────────── v1.3.0
+ Installed OrderedCollections ─ v1.3.1
+ Installed Crayons ──────────── v4.0.4
  Installed SortingAlgorithms ── v0.3.1
- Installed StatsBase ────────── v0.32.2
- Installed OrderedCollections ─ v1.3.0
- Installed Crayons ──────────── v4.0.3
- Installed UnicodePlots ─────── v1.2.0
+ Installed Missings ─────────── v0.4.4
+ Installed DataAPI ──────────── v1.3.0
+ Installed Compat ───────────── v3.23.0
+ Installed StatsBase ────────── v0.33.2
+ Installed UnicodePlots ─────── v1.3.0
+ Installed DataStructures ───── v0.18.8
   Updating `~/build/joshday/JuliaForDataScience.jl/docs/Project.toml`
-  [b8865327] + UnicodePlots v1.2.0
+  [b8865327] + UnicodePlots v1.3.0
   Updating `~/build/joshday/JuliaForDataScience.jl/docs/Manifest.toml`
-  [a8cc5b0e] + Crayons v4.0.3
+  [34da2185] + Compat v3.23.0
+  [a8cc5b0e] + Crayons v4.0.4
   [9a962f9c] + DataAPI v1.3.0
-  [864edb3b] + DataStructures v0.17.19
-  [e1d29d7a] + Missings v0.4.3
-  [bac558e1] + OrderedCollections v1.3.0
+  [864edb3b] + DataStructures v0.18.8
+  [e1d29d7a] + Missings v0.4.4
+  [bac558e1] + OrderedCollections v1.3.1
   [a2af1166] + SortingAlgorithms v0.3.1
-  [2913bbd2] + StatsBase v0.32.2
-  [b8865327] + UnicodePlots v1.2.0
+  [2913bbd2] + StatsBase v0.33.2
+  [b8865327] + UnicodePlots v1.3.0
+  [8bb1440f] + DelimitedFiles 
   [37e2e46d] + LinearAlgebra 
+  [1a1011a3] + SharedArrays 
   [2f01184e] + SparseArrays 
   [10745b16] + Statistics</code></pre><h3 id="Now-load-our-installed-package-and-try-it-out"><a class="docs-heading-anchor" href="#Now-load-our-installed-package-and-try-it-out">Now load our installed package and try it out</a><a id="Now-load-our-installed-package-and-try-it-out-1"></a><a class="docs-heading-anchor-permalink" href="#Now-load-our-installed-package-and-try-it-out" title="Permalink"></a></h3><pre><code class="language-julia-repl">julia&gt; using UnicodePlots
 
 julia&gt; histogram(randn(1000), title=&quot;My First Plot!&quot;)
                              My First Plot!
                 ┌                                        ┐
-   [-4.0, -3.0) ┤ 1
-   [-3.0, -2.0) ┤▇ 14
-   [-2.0, -1.0) ┤▇▇▇▇▇▇▇▇▇▇▇▇ 120
-   [-1.0,  0.0) ┤▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 356
-   [ 0.0,  1.0) ┤▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 345
-   [ 1.0,  2.0) ┤▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 143
-   [ 2.0,  3.0) ┤▇▇ 19
-   [ 3.0,  4.0) ┤ 2
+   [-4.0, -3.0) ┤ 2
+   [-3.0, -2.0) ┤▇▇ 22
+   [-2.0, -1.0) ┤▇▇▇▇▇▇▇▇▇▇▇▇▇ 130
+   [-1.0,  0.0) ┤▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 338
+   [ 0.0,  1.0) ┤▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 338
+   [ 1.0,  2.0) ┤▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 152
+   [ 2.0,  3.0) ┤▇▇ 15
+   [ 3.0,  4.0) ┤ 3
                 └                                        ┘
-                                Frequency</code></pre><h2 id=".3-Discovering-Packages"><a class="docs-heading-anchor" href="#.3-Discovering-Packages">1.3 Discovering Packages</a><a id=".3-Discovering-Packages-1"></a><a class="docs-heading-anchor-permalink" href="#.3-Discovering-Packages" title="Permalink"></a></h2><ul><li><a href="https://juliahub.com">https://juliahub.com</a></li></ul><h2 id=".4-Getting-Help"><a class="docs-heading-anchor" href="#.4-Getting-Help">1.4 Getting Help</a><a id=".4-Getting-Help-1"></a><a class="docs-heading-anchor-permalink" href="#.4-Getting-Help" title="Permalink"></a></h2><p>If you get stuck on something, my recommendations for steps to get help are:</p><ol><li>Google it</li><li>Ask on <a href="http://julialang.slack.com">http://julialang.slack.com</a> (try the <code>#helpdesk</code> channel)</li><li>Ask on <a href="https://discourse.julialang.org">https://discourse.julialang.org</a> (try the <code>first-steps</code> tag)</li></ol></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../">« Welcome</a><a class="docs-footer-nextpage" href="../02-dataviz/">2 Data Visualization »</a></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> on <span class="colophon-date" title="Wednesday 15 July 2020 15:18">Wednesday 15 July 2020</span>. Using Julia version 1.3.1.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
+                                Frequency</code></pre><h2 id=".3-Discovering-Packages"><a class="docs-heading-anchor" href="#.3-Discovering-Packages">1.3 Discovering Packages</a><a id=".3-Discovering-Packages-1"></a><a class="docs-heading-anchor-permalink" href="#.3-Discovering-Packages" title="Permalink"></a></h2><ul><li><a href="https://juliahub.com">https://juliahub.com</a></li></ul><h2 id=".4-Getting-Help"><a class="docs-heading-anchor" href="#.4-Getting-Help">1.4 Getting Help</a><a id=".4-Getting-Help-1"></a><a class="docs-heading-anchor-permalink" href="#.4-Getting-Help" title="Permalink"></a></h2><p>If you get stuck on something, my recommendations for steps to get help are:</p><ol><li>Google it</li><li>Ask on <a href="http://julialang.slack.com">http://julialang.slack.com</a> (try the <code>#helpdesk</code> channel)</li><li>Ask on <a href="https://discourse.julialang.org">https://discourse.julialang.org</a> (try the <code>first-steps</code> tag)</li></ol></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../">« Welcome</a><a class="docs-footer-nextpage" href="../02-dataviz/">2 Data Visualization »</a></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> on <span class="colophon-date" title="Friday 30 October 2020 11:41">Friday 30 October 2020</span>. Using Julia version 1.3.1.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
